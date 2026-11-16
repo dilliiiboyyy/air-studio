@@ -4,9 +4,7 @@ Air Studio is a browser music studio you play with your hands in front of a webc
 
 ## Deploy
 
-**Vercel:** import the repo at https://vercel.com/new. `vercel.json` sets the build (Vite → `dist`), so no settings are needed, and every push to `main` redeploys.
-
-**GitHub Pages:** `.github/workflows/deploy.yml` publishes to the `gh-pages` branch on every push to `main`.
+Hosted on **Vercel**. To set up your own copy, import the repo at https://vercel.com/new. `vercel.json` sets the build (Vite → `dist`), so no settings are needed, and every push to `main` redeploys.
 
 ## Run
 
