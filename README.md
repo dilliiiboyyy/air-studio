@@ -2,9 +2,11 @@
 
 Air Studio is a browser music studio you play with your hands in front of a webcam. It has five instruments, a recording library, a multitrack studio, a metronome, backing bands, guided lessons and performance reports. Hand tracking, audio and storage all run locally in the browser. No video or audio leaves the device.
 
-## Live site
+## Deploy
 
-https://dilliiiboyyy.github.io/air-studio/ is deployed automatically from `main` by `.github/workflows/deploy.yml`.
+**Vercel:** import the repo at https://vercel.com/new. `vercel.json` sets the build (Vite → `dist`), so no settings are needed, and every push to `main` redeploys.
+
+**GitHub Pages:** `.github/workflows/deploy.yml` publishes to the `gh-pages` branch on every push to `main`.
 
 ## Run
 
