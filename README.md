@@ -2,6 +2,10 @@
 
 Air Studio is a browser music studio you play with your hands in front of a webcam. It has five instruments, a recording library, a multitrack studio, a metronome, backing bands, guided lessons and performance reports. Hand tracking, audio and storage all run locally in the browser. No video or audio leaves the device.
 
+## Live site
+
+https://dilliiiboyyy.github.io/air-studio/ is deployed automatically from `main` by `.github/workflows/deploy.yml`.
+
 ## Run
 
 ```bash
